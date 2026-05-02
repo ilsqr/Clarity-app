@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Clarity-app}",
+            "name": "Debug Clarity",
+            "target": "Clarity",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Clarity"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Clarity-app}",
+            "name": "Release Clarity",
+            "target": "Clarity",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Clarity"
+        }
+    ]
+}
